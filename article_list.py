@@ -66,10 +66,6 @@ def articles(browser):
             "Url: " + url + "\n"
         ])
 
-# with open("data.json", "w") as f:
-#     json.dump([], f)
-
-
 
 url = 'https://www.amazon.com/s?k=Ryzen+AMD+processor&rh=n%3A172282%2Cp_89%3AAMD&dc&ds=v1%3ABSaG4inkaIHjdsrbs6HeSwEGbnZzOmvWJV1pq1E5PPY&qid=1660759417&rnid=2528832011&ref=sr_nr_p_89_1'
 hasNextPageDisabled = False
